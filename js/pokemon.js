@@ -1,2 +1,0 @@
-const listaPkemon = document.querySelector()
-
