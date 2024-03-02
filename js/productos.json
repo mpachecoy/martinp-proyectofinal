@@ -1,0 +1,124 @@
+[
+    {
+        "id": "dorm-001",
+        "titulo": "Botinero",
+        "imagen": "./img/07 borinero-zapatero.png",
+        "categoria": {
+            "nombre": "dormitorio",
+            "id": "dormitorio"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "dorm-002",
+        "titulo": "Comoda",
+        "imagen": "./img/comoda cessar.png",
+        "categoria": {
+            "nombre": "dormitorio",
+            "id": "dormitorio"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "dorm-003",
+        "titulo": "Mesa de Luz",
+        "imagen": "./img/Mesa de Luz.png",
+        "categoria": {
+            "nombre": "dormitorio",
+            "id": "dormitorio"
+        },
+        "precio": 5000
+    },
+    {
+        "id": "dorm-004",
+        "titulo": "Placard",
+        "imagen": "./img/03 PLACARD 3.png",
+        "categoria": {
+            "nombre": "dormitorio",
+            "id": "dormitorio"
+        },
+        "precio": 50000
+    },
+
+    {
+        "id": "comedor-001",
+        "titulo": "Modular",
+        "imagen": "./img/modular.png",
+        "categoria": {
+            "nombre": "comedor",
+            "id": "comedor"
+        },
+        "precio": 20000
+    },  
+    {
+        "id": "comedor-002",
+        "titulo": "Microondas",
+        "imagen": "./img/Microondas.png",
+        "categoria": {
+            "nombre": "comedor",
+            "id": "comedor"
+        },
+        "precio": 10000
+    },  
+    {
+        "id": "comedor-003",
+        "titulo": "Bajo Mesada",
+        "imagen": "./img/Bajo Mesada.png",
+        "categoria": {
+            "nombre": "comedor",
+            "id": "comedor"
+        },
+        "precio": 60000
+    },  
+    {
+        "id": "comedor-004",
+        "titulo": "Cristalero",
+        "imagen": "./img/Cristalero.png",
+        "categoria": {
+            "nombre": "comedor",
+            "id": "comedor"
+        },
+        "precio": 35000
+    },  
+     
+    {
+        "id": "sillones-001",
+        "titulo": "Futon",
+        "imagen": "./img/futon 3 cuerpos.png",
+        "categoria": {
+            "nombre": "sillones",
+            "id": "sillones"
+        },
+        "precio": 45000
+    }, 
+    {
+        "id": "sillones-002",
+        "titulo": "Sillon Venecia",
+        "imagen": "./img/Sillon Venecia.png",
+        "categoria": {
+            "nombre": "sillones",
+            "id": "sillones"
+        },
+        "precio": 65000
+    }, 
+    {
+        "id": "sillones-003",
+        "titulo": "Sillon Club",
+        "imagen": "./img/Sillon Club.jpg",
+        "categoria": {
+            "nombre": "sillones",
+            "id": "sillones"
+        },
+        "precio": 95000
+    }, 
+    {
+        "id": "sillones-004",
+        "titulo": "Rack TV",
+        "imagen": "./img/rack malibu.png",
+        "categoria": {
+            "nombre": "sillones",
+            "id": "sillones"
+        },
+        "precio": 22500
+    }
+]

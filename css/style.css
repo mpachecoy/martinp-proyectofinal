@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anta", sans-serif;
+}
+
+h1, h2, h3, h4, h5 ,h6, p, input, textarea{
+    margin: 0;
+    padding: 0;
+}
+
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header .imagen-logo {
+    width: 75px;
+    border: 2px solid black;
+  }
+
+.navbar{
+    background-color: skyblue;
+    background-position: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    text-shadow: 0px 4px 13px rgba(0, 0, 0, 0.5);
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin: 0;
+}
+
+.boton-menu{
+    color: black;
+    background-color: transparent;
+    border: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    text-shadow: 0px 4px 13px rgba(0, 0, 0, 0.5);
+}
+
+.boton-carrito{
+    color: black;
+}
+
+.boton-carrito-carrito{
+    color: black;
+}
+
+.numerito{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0 .25rem;
+}
+
+.boton-menu.active{
+    background-color: white;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.texto-footer{
+    color: grey;
+}
+
+main{
+    background-color: white;
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.titulo-principal{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contenedor-productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.prodcuto-img{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.prodcuto-descripcion{
+    background-color: rgb(222, 222, 222);
+    border-radius: 1rem;
+    padding: 0.25rem;
+    margin-top: -1.5rem;
+    position: relative;
+    gap: 1rem;
+}
+
+.producto-titulo{
+    font-size: 1.5rem;
+}
+
+.producto-precio{
+    font-size: 1.25rem;
+}
+
+.producto-agregar{
+    text-shadow: 0px 4px 13px rgba(0, 0, 0, 0.5);
+    border: 0;
+    background-color: skyblue;
+    color: white;
+    padding: .45rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid skyblue;
+    transition: background-color 0.5s, color .5s ;
+}
+
+.producto-agregar:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.icono-whatsapp {
+    background-color: green;
+    border: 2px solid black;
+    position: fixed;
+    z-index: 999;
+    border-radius: 60%;
+    bottom: 20px;
+    right: 20px;
+    padding: 1px;
+    transition: ease 0.3s;
+    animation: sombra 1.2s infinite;
+  }
+  .icono-whatsapp .whatsapp {
+    width: 70px;
+    transition: ease 1s;
+  }
+  
+  .icono-whatsapp:hover {
+    transform: scale(1.1);
+    transition: ease 0.3s;
+  }
+  
+  @keyframes sombra {
+    0% {
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100% {
+      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+  }
+
+
+/* CSS Carrito */
+
+.boton-incio{
+    color: black;
+}
+
+.contenedor-carrito{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.carrito-productos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.carrito-producto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(223, 223, 223);
+    padding: 0.5rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+}
+
+.img-carrito{
+    width: 5rem;
+    border-radius: 1rem;
+}
+
+.carrito-producto small{
+    font-size: 0.75rem;
+}
+
+.carrito-producto-eliminar{
+    border: 0;
+    background-color: transparent;
+    color: rgb(184, 4, 4);
+}
+
+.carrito-acciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carrito-accion-vaciar{
+    border: 0;
+    background-color: rgb(223, 223, 223);
+    padding: 1rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.carrito-acciones-derecha{
+    display: flex; 
+}
+
+.carrito-acciones-total{
+    display: flex;
+    background-color: rgb(223, 223, 223);
+    align-items: center;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.carrito-accion-comprar{
+    border: 0;
+    background-color: skyblue;
+    padding: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.disabled{
+    display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and ( max-width: 950px) {
+
+    .proyect{
+        grid-template-columns: 1fr;
+    }
+
+    .contenedor-productos{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin: 0;
+    }
+    .img-carrito{
+        display: none;
+    }
+}
+
